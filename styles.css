@@ -1,0 +1,125 @@
+body {
+    font-family: "Bitter", serif;
+   background-color: white;
+   margin: 0;
+   padding: 0;
+}
+header{
+   background-color: white;
+   padding: 10px 0;
+   text-align: center;
+}
+.navigation-menu {
+    background-color: pink; 
+ display: flex;
+ justify-content: center;
+ font-size: 20px;
+ position: fixed;
+ top: 5px;
+ width: 100%;
+ }
+.navigation-menu a:hover {
+ background-color: lightgreen; 
+}
+.navigation-menu a {
+ color: white; 
+ text-decoration: none;
+ padding: 10px 20px;
+}
+.about p {
+   color: black;
+   text-align:center;
+}
+main {
+   padding: 20px;
+}
+h1 {
+   color: green;
+   background-color: lightgreen;
+   text-align: center;
+}
+h2 {
+   color: green;
+}
+ul {
+   padding: 0;
+}
+ul li {
+   background-color: lightgreen;
+   margin: 10px;
+   padding: 10px;
+   border-left: 5px solid darkgreen
+}
+footer{
+   background-color: pink;
+   color: white;
+   text-align: center;
+   padding: 10px;
+   position: fixed;
+   width: 100%;
+   bottom: 0;
+   margin-bottom:5px;
+   font-size: bold;
+}
+.intro img, .about img {
+ width: 100%;
+ height: auto;
+ display: block;
+ margin: 20px;
+}
+.team .row {
+   display: flex;
+   flex-wrap: wrap;
+}
+.team-member {
+   background-color: white;
+   padding: 5px;
+   text-align: center;
+   width: 40%;
+   border: 1px solid green;
+   margin: 5px;
+
+}
+.team-member img {
+   width: 150px;
+   height: 150px;
+   border-radius: 75px;
+}
+.team-member p {
+   color: black;
+   border: 1px solid green;
+}
+.container {
+   background-image: url(https://th.bing.com/th/id/OIP.qLFSrV_5BhtGY4YhZLeYywAAAA?rs=1&pid=ImgDetMain);
+   width: 90%;
+   height: auto;
+   max-width: 600px;
+   margin: 5px;
+   padding: 10px;
+   box-shadow:  10px rgba(0, 0, 0, 0.5);
+}
+#description {
+   color: green;
+   text-align: center;
+   font-size: 20px;
+   background-color: white;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+   width: 90%;
+   padding: 10px;
+   margin-bottom: 15px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+}
+button {
+ background-color: green; 
+color: white;
+font-size:bold;
+cursor: pointer; 
+border: none;
+width: 80px;
+height: 30px;
+border-radius: 4px;
+}
